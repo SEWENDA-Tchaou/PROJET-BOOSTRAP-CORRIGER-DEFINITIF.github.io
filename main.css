@@ -1,6 +1,5 @@
 .home{
     width: 100%;
-    height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -10,6 +9,10 @@
     position: fixed;
 }
  
+.devices{
+    margin-left: 4rem;
+}
+
 h1{
     position: relative;
     top: 100px;
@@ -81,6 +84,12 @@ input{
     justify-content: space-around;
 }
 
+
+@media all and (max-width: 2560px){
+    .mi{
+        width: inherit; 
+    }
+}
  @media all and (max-width: 1198px){
     .partenaire{
         width: 239px; 
@@ -104,9 +113,6 @@ input{
     .assistance{
         flex-wrap: wrap;
     }
-    .home{
-        height: 50vh;
-    }
 }
 
 @media all and (max-width: 425px){
@@ -119,9 +125,6 @@ input{
     .vincent-invisible{
         visibility: collapse !important;
     }
-    .home {
-        height: 35vh;
-    }
     .our_contacts{
         width: 314px !important;
     }
@@ -129,9 +132,6 @@ input{
 
 @media all and (max-width: 320px){
 
-    .home{
-        height: 28vh;
-    }
     .our_contacts{
          width: 272px !important; 
          padding: 1rem !important;
@@ -143,74 +143,3 @@ input{
 }
 
 
-
-
-/*
-@media all and (max-width: 1189px){
- .temoin1{
-     width: 218px;
- }
- .temoignage{
-     width: 218px;
- }
- input{
-     width: 100px !important;
- }
- 
- .our_contacts{
-     width: 320px;
-     
-    }
-}
-
-@media all and (max-width: 1128px){
-    .col{
-        margin: 0 !important;
-        border-radius: 20px;
-    }
-}
-@media all and (max-width: 1024px){
-    .temoin1{
-        width: 250px !important;
-    }
-    .temoignage{
-        width: 250px;
-    }
-}
-@media all and (max-width: 912px){
-    .technique, .image_blue{
-        background-image: none;
-    }
-    .contact{
-        margin-top: 35px;
-    }
-    .contact_us{
-        margin-top: 608px;
-   }
-   .temoignage_bloc1{
-    margin: 0 !important;
-   ;
-   }
-   .temoignage{
-    width: 205px !important;
-   }
-   .temoin1{
-       width: 205px !important;
-   }
-}
-@media all and (max-width: 888px){
-   
-    h1{
-        
-        top: 200px;
-    } 
-   .col{
-       width: 200px;
-   }
-    
-}
-@media all and (max-width: 384px){
-    .first-photos{
-        flex-wrap: wrap;
-    }
-} */
