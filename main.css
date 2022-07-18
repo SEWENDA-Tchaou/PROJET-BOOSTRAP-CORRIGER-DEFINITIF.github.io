@@ -1,0 +1,216 @@
+.home{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.navbar{
+    width: 100%;
+    position: fixed;
+}
+ 
+h1{
+    position: relative;
+    top: 100px;
+    font-weight: bold;
+}
+h2{
+    text-align: center;
+}
+  
+.technique{
+    background-image: url( "images/nature.jpg"); 
+    width: 100%;
+    /* height: 3300px; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+
+.lesimages{
+    z-index: 2;
+}
+
+.image_blue{
+    background-image: url("images/image_fond_bleu.png");
+    width: 100%;
+    /* height: 750px; */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+ 
+.temoignage{
+    background-color: #C4C4C4;
+    /* width: 18.75rem;*/
+    height: 32vh; 
+    border-radius: 20px;
+}
+.temoin1{
+    background-color: #D6E6DA;
+    /* width: 18.75rem; */
+    height: 30vh;
+     border-radius: 20px;
+} 
+
+.our_contacts{
+    width: 350px;
+} 
+
+button{
+    justify-content: center !;
+}
+
+input{
+    border: none;
+    border-bottom: 1px solid black;
+    background: none;
+    outline: none;
+}
+.partenaires{
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.contact{
+    justify-content: space-around;
+}
+
+.reseaux_sociaux{
+    justify-content: center;
+    justify-content: space-around;
+}
+
+ @media all and (max-width: 1198px){
+    .partenaire{
+        width: 239px; 
+    }
+}
+
+@media all and (max-width: 606px){
+    .footer_right{
+       display: none; 
+    }
+    .logo_reseau, .image_depannage{
+        display: none;
+        padding: 0px !important;
+    }
+    input{
+        width: 100px !important;
+    }
+}
+
+@media all and (max-width: 637px){
+    .assistance{
+        flex-wrap: wrap;
+    }
+    .home{
+        height: 50vh;
+    }
+}
+
+@media all and (max-width: 425px){
+    .depannage{
+        padding: 0rem !important;
+    }
+}
+
+@media all and (max-width: 375px){
+    .vincent-invisible{
+        visibility: collapse !important;
+    }
+    .home {
+        height: 35vh;
+    }
+    .our_contacts{
+        width: 314px !important;
+    }
+}
+
+@media all and (max-width: 320px){
+
+    .home{
+        height: 28vh;
+    }
+    .our_contacts{
+         width: 272px !important; 
+         padding: 1rem !important;
+    }
+    .assistance{
+        margin: 0rem !important;
+    }
+
+}
+
+
+
+
+/*
+@media all and (max-width: 1189px){
+ .temoin1{
+     width: 218px;
+ }
+ .temoignage{
+     width: 218px;
+ }
+ input{
+     width: 100px !important;
+ }
+ 
+ .our_contacts{
+     width: 320px;
+     
+    }
+}
+
+@media all and (max-width: 1128px){
+    .col{
+        margin: 0 !important;
+        border-radius: 20px;
+    }
+}
+@media all and (max-width: 1024px){
+    .temoin1{
+        width: 250px !important;
+    }
+    .temoignage{
+        width: 250px;
+    }
+}
+@media all and (max-width: 912px){
+    .technique, .image_blue{
+        background-image: none;
+    }
+    .contact{
+        margin-top: 35px;
+    }
+    .contact_us{
+        margin-top: 608px;
+   }
+   .temoignage_bloc1{
+    margin: 0 !important;
+   ;
+   }
+   .temoignage{
+    width: 205px !important;
+   }
+   .temoin1{
+       width: 205px !important;
+   }
+}
+@media all and (max-width: 888px){
+   
+    h1{
+        
+        top: 200px;
+    } 
+   .col{
+       width: 200px;
+   }
+    
+}
+@media all and (max-width: 384px){
+    .first-photos{
+        flex-wrap: wrap;
+    }
+} */
